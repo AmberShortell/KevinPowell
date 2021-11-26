@@ -1,0 +1,102 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+}
+
+.playfair{
+    font-family: "Playfair Display", Helvetica, sans-serif;
+}
+
+.playfair--h1{
+    font-size: 60px;
+    color: #824936;
+    border: 2px solid red;
+    font-weight: 700;
+}
+
+.playfair--h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.playfair--brown{
+    color: #824936;
+    text-align: center;
+}
+
+.roboto--light{
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+}
+
+.roboto-light--header{
+    text-transform: uppercase;
+    color: #222C2A;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.roboto--regular{
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.cream{
+    background: #F3EED9;
+    max-width: 70.5rem;
+}
+
+.container--3{
+    display: flex;
+    gap: 2rem;
+}
+
+.container--4{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.black{
+    background: #222C2A;
+    color: #F3EED9;
+    max-width: 70.5rem;
+}
+
+.brown{
+    background: #824936;
+    color: #F3EED9;
+    max-width: 70.5rem;
+}
+
+.container{
+    min-height: 41.25rem;
+    max-width: 70.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.width{
+    max-width: 65%;
+    text-align: center;
+}
+
+.container--2{
+    width: 90%;
+    padding: 0 5rem;
+    margin: 0 auto;
+}
